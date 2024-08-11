@@ -20,6 +20,11 @@ if [ $operation_number -eq 4 ]; then
   echo -e "\e[31m!! Please note that your first integer is the numerator and the second number is the denominator !!\e[0m"
 fi
 
+if [ $operation_number -lt 1 || -gt 4]; then
+  echo -e "You haven't selected a proper mathematical option"
+  exit
+fi
+
 echo "Please enter first integer" #entering the first number
 read first_number
 
@@ -58,7 +63,5 @@ if [ $operation_number -eq 1 ]; then #if input was addition or +
 	else
  	   echo "The division of "$first_number / $second_number = " is impossible"
 	fi
-else
-  echo "You haven't selected a proper option mathematical option"
   
 fi
