@@ -57,7 +57,7 @@ if [ $operation_number -eq 1 ]; then #if input was addition or +
   elif [ $operation_number -eq 3 ]; then #if input was multiplication x
     echo "The product between " "$second_number x $first_number is "$(($second_number * $first_number))
 
-  elif [ $operation_number -eq 4 ]; then  #if input was division or / #1 & #5 | #5 & #1
+  elif [ $operation_number -eq 4 ]; then  #if input was division or /
 	if [ $second_number -ne 0 ]; then #checking if the denominator is zero
 	   echo "The division between " "$first_number / $second_number = "$(($first_number / $second_number)) "with a remainder of" $(($first_number % $second_number))
 	else
