@@ -67,7 +67,6 @@ fi
 
 **Invalid Operation:** If the user inputs a number outside the range of 1-4 for the operation, the script will exit with an error message.
 **Invalid Input:** If the user inputs a non-integer value for either of the numbers, the script will prompt them to enter a valid integer.
-
 **Exit Codes**
 - 0: Successful execution.
 - 1: An invalid operation was selected.
