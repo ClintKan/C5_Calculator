@@ -17,7 +17,7 @@ _The synopsis of the task being;_
 The is a simple bash-based command-line calculator that allows users to perform basic arithmetic 
 operations: addition, subtraction, multiplication, and division. The script prompts the user to 
 input two integers and select an operation to perform on these numbers. Integers are either 
-negative or positive whole numbers.
+negative, a zero, or positive whole numbers.
 
 
 ## How It Works
