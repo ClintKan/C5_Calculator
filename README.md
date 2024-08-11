@@ -2,8 +2,10 @@
 
 ## _This is a calculator simulation assignment_
 
-This was an assignment to the KuraLabs C5 class - with the synopsis of the task being;
+This was an assignment to assist with learning, practicing and emphasizing bash scripting
+concepts, user input handling, and arithmetic operations.
 
+_The synopsis of the task being;_
 
 > To create a calculator in bash that takes and operates on two integers and operates on
 > them by either addition, subtraction, multiplication or division - all using if, else 
