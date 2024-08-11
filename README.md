@@ -21,10 +21,11 @@ negative or positive whole numbers.
 ## How It Works
 With a simple welcome part, it prompts the user to choose one of four arithmetic operations by
 entering a number (1-4):
-1 for Addition - Adds the two integers.
-2 for Subtraction - Subtracts the second integer from the first.
-3 for Multiplication - Multiplies the two integers.
-4 for Division - Divides the first integer by the second, also providing the remainder if applicable.
+
+-- 1 for Addition - Adds the two integers.
+-- 2 for Subtraction - Subtracts the second integer from the first.
+-- 3 for Multiplication - Multiplies the two integers.
+-- 4 for Division - Divides the first integer by the second, also providing the remainder if applicable.
 
 ### Special Considerations:
 In the case of mathematical operation 4, division, because dividing by zero is undefined, the script 
