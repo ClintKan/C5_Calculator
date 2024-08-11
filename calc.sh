@@ -22,7 +22,7 @@ fi
 
 if [ $operation_number -lt 1 || -gt 4]; then
   echo -e "You haven't selected a proper mathematical option"
-  exit
+  exit 1
 fi
 
 echo "Please enter first integer" #entering the first number
