@@ -2,7 +2,7 @@
 
 ## _This is a calculator simulation assignment_
 
-This was an assignment assigned in the KuraLabs C5 class - with the synopsis of a task being;
+This was an assignment to the KuraLabs C5 class - with the synopsis of the task being;
 
 
 > To create a calculator in bash that takes and operates on two integers and operates on
@@ -10,4 +10,4 @@ This was an assignment assigned in the KuraLabs C5 class - with the synopsis of 
 > and/or elif loops, and most iimportantly properly handling errors for the sake of the
 > a good customer usage experience.
 
-
+#
