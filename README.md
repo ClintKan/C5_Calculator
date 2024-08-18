@@ -30,11 +30,18 @@ entering a number (1-4):
 * 3 for Multiplication - Multiplies the two integers.
 * 4 for Division - Divides the first integer by the second, also providing the remainder if applicable.
 
+<div align="center">
+  <img width="468" alt="image" src="https://github.com/user-attachments/assets/153e5048-42de-4a48-898d-56c3736185a6">
+</div>
+
 ### Special Considerations:
 In the case of mathematical operation 4, division, because dividing by zero is undefined, the script 
 checks if the second integer (the denominator) is zero to prevent division by zero. And if the 
 denominator is zero, the script notifies the user that the division is impossible.
 
+<div align="center">
+  <img width="468" alt="image" src="https://github.com/user-attachments/assets/1c9d5a77-62df-4b95-a4ea-ebc2ded6f66e">
+</div>
 
 ## Input Validation & Notices :
 
@@ -70,6 +77,10 @@ fi
 **Invalid Operation:** If the user inputs a number outside the range of 1-4 for the operation, the script will exit with an error message.
 
 **Invalid Input:** If the user inputs a non-integer value for either of the numbers, the script will prompt them to enter a valid integer.
+
+<div align="center">
+  <img width="468" alt="image" src="https://github.com/user-attachments/assets/fb3a0bd3-80dc-4032-aaa0-7193e6c7cafc">
+</div>
 
 **Exit Codes**
 - 0: Successful execution.
